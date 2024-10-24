@@ -12,7 +12,7 @@ from std_msgs.msg import Header
 image_rows_full = 64
 image_cols = 1024
 
-# Ouster OS1-64 (gen1)
+# Ouster OS1-64 (gen1) (resolution 848 x 480, frame rate 30)
 ang_res_x = 360.0/float(image_cols) # horizontal resolution
 ang_res_y = 33.2/float(image_rows_full-1) # vertical resolution
 ang_start_y = 16.6 # bottom beam angle
